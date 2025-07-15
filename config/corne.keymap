@@ -9,17 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        meta_1: meta_1 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "META_1";
-            bindings = <&kp LG(N1)>, <&kp LS(LG(N1))>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_RSFT|MOD_LSFT)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,10 +45,10 @@
         Meta {
             display-name = "meta";
             bindings = <
-&kp LG(TAB)     &kp LG(N5)  &kp LG(NUMBER_4)  &kp LG(NUMBER_3)  &kp LG(NUMBER_2)  &meta_1          &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)       &kp BSPC
-&kp LEFT_SHIFT  &trans      &kp LS(TAB)       &kp LG(D)         &kp LG(F)         &kp LG(TAB)      &kp LG(H)   &kp LG(J)   &kp LG(K)   &kp LG(L)   &kp PRINTSCREEN  &trans
-&kp LSHFT       &trans      &trans            &trans            &trans            &trans           &trans      &trans      &trans      &trans      &trans           &trans
-                                              &kp LGUI          &trans            &kp LG(ENTER)    &trans      &trans      &kp RALT
+&kp LG(TAB)     &kp LG(N5)  &kp LG(N4)       &kp LG(N3)  &kp LG(N2)  &kp LG(N1)       &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)           &kp BSPC
+&kp LEFT_SHIFT  &trans      &kp LS(LG(TAB))  &kp LG(D)   &kp LG(F)   &kp LG(TAB)      &kp LG(H)   &kp LG(J)   &kp LG(K)   &kp LG(L)   &kp LG(PRINTSCREEN)  &trans
+&kp LSHFT       &kp LG(W)   &trans           &kp LG(C)   &trans      &trans           &kp LG(N)   &trans      &trans      &trans      &trans               &trans
+                                             &kp LGUI    &trans      &kp LG(ENTER)    &trans      &trans      &kp RALT
             >;
         };
     };
