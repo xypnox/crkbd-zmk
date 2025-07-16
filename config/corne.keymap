@@ -38,7 +38,7 @@
 &kp TAB         &kp EXCL   &kp AT           &kp HASH   &kp AMPS        &kp PRCNT    &kp CARET  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RPAR  &kp BSPC
 &kp LEFT_SHIFT  &kp GRAVE  &kp KP_MULTIPLY  &kp EQUAL  &kp MINUS       &trans       &kp MINUS  &kp EQUAL   &kp LBKT              &kp RBKT               &kp BSLH  &trans
 &kp LSHFT       &kp TILDE  &kp KP_DIVIDE    &kp PLUS   &kp UNDERSCORE  &trans       &kp UNDER  &kp PLUS    &kp LBRC              &kp RBRC               &kp PIPE  &trans
-                                            &kp LGUI   &trans          &kp SPACE    &kp RET    &trans      &kp RALT
+                                            &trans     &trans          &trans       &kp RET    &trans      &trans
             >;
         };
 
