@@ -25,7 +25,7 @@
         Numeric {
             display-name = "num";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0         &kp DELETE
+&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0         &kp BACKSPACE
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp PAGE_UP    &trans
 &kp LSHFT   &kp C_MUTE    &kp C_PREV    &kp C_PAUSE   &kp C_PLAY    &kp C_NEXT      &trans    &trans    &trans    &trans     &kp PAGE_DOWN  &trans
                                         &kp LGUI      &trans        &trans          &trans    &trans    &kp RALT
@@ -35,9 +35,9 @@
         Symbols {
             display-name = "sym";
             bindings = <
-&kp TAB         &kp EXCL   &kp AT           &kp HASH   &kp AMPS        &kp PRCNT    &kp CARET  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT  &kp GRAVE  &kp KP_MULTIPLY  &kp EQUAL  &kp MINUS       &trans       &kp MINUS  &kp EQUAL   &kp LBKT              &kp RBKT               &kp BSLH  &trans
-&kp LSHFT       &kp TILDE  &kp KP_DIVIDE    &kp PLUS   &kp UNDERSCORE  &trans       &kp UNDER  &kp PLUS    &kp LBRC              &kp RBRC               &kp PIPE  &trans
+&kp TAB         &kp EXCL   &kp AT           &kp HASH   &kp AMPS        &kp PRCNT    &kp CARET  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE  &kp BSPC
+&kp LEFT_SHIFT  &kp GRAVE  &kp KP_MULTIPLY  &kp EQUAL  &kp MINUS       &trans       &kp MINUS  &kp EQUAL   &kp LBKT              &kp RBKT               &kp BSLH    &trans
+&kp LSHFT       &kp TILDE  &kp KP_DIVIDE    &kp PLUS   &kp UNDERSCORE  &trans       &kp UNDER  &kp PLUS    &kp LBRC              &kp RBRC               &kp PIPE    &trans
                                             &trans     &trans          &trans       &kp RET    &trans      &trans
             >;
         };
